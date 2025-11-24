@@ -23,19 +23,22 @@ This repository hosts **deployment and installation resources** for the
 https://docs.aerios-project.eu/ -->
 
 🌍 Project website:  
-https://projects.eclipse.org/projects/iot.aerios
+[https://projects.eclipse.org/projects/iot.aerios](https://projects.eclipse.org/projects/iot.aerios)
 
 📦 Resources portal (GitHub Pages):  
-https://eclipse-aerios.github.io/resources
+[https://eclipse-aerios.github.io/resources](https://eclipse-aerios.github.io/resources)
 
 💻 GitHub repository:   
-https://github.com/eclipse-aerios
+[https://github.com/eclipse-aerios](https://github.com/eclipse-aerios)
 
 🐳 Docker Hub repository:  
-https://hub.docker.com/u/eclipseaerios
+[https://hub.docker.com/u/eclipseaerios](https://hub.docker.com/u/eclipseaerios)
 
-<!-- ☸️ Artifact Hub repository:  
-https://artifacthub.io/packages/search?org=eclipse-aerios -->
+☸️ Helm chart repository:  
+[https://eclipse-aerios.github.io/resources/charts](https://eclipse-aerios.github.io/resources/charts)
+
+☸️ Artifact Hub repository:  
+[https://artifacthub.io/packages/search?user=eclipse-aerios-bot](https://artifacthub.io/packages/search?user=eclipse-aerios-bot)
 
 
 ## 📂 Repository Structure
@@ -72,4 +75,30 @@ Now, Eclipse aeriOS Helm charts can be installed. For instance:
 
 ```bash
 helm install federator eclipse-aerios/federator --debug
+```
+
+## 🐳 Docker Compose files repository
+
+To download a Docker Compose file:
+
+```bash
+wget https://raw.githubusercontent.com/eclipse-aerios/resources/refs/heads/main/docker-compose/<component>/docker-compose.yaml
+```
+
+For instance:
+
+```bash
+wget https://raw.githubusercontent.com/eclipse-aerios/resources/refs/heads/main/docker-compose/federator/docker-compose.yaml
+```
+
+To quickly download and start a Docker Compose deployment with no modifications:
+
+```bash
+curl https://raw.githubusercontent.com/eclipse-aerios/resources/refs/heads/main/docker-compose/<component>/docker-compose.yaml | docker compose -f /dev/stdin up -d
+```
+
+For instance:
+
+```bash
+curl https://raw.githubusercontent.com/eclipse-aerios/resources/refs/heads/main/docker-compose/federator/docker-compose.yaml | docker compose -f /dev/stdin up -d
 ```

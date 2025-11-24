@@ -3,7 +3,7 @@ entries:
   aerios-k8s-shim:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-24T13:19:15.853197+01:00"
+    created: "2025-11-24T15:27:41.7072785+01:00"
     description: A Helm chart for deploying an intermediate among aerios and K8s cluster
     digest: be15dde9ddd150e559fd1f48b61e060e1643178c4185e1fff7e748ed5f0ebeb7
     name: aerios-k8s-shim
@@ -14,9 +14,9 @@ entries:
   federator:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-11-24T13:19:15.8537469+01:00"
+    created: "2025-11-24T15:27:41.7082774+01:00"
     description: aeriOS Federator
-    digest: 43bb0150a5b83de99adfd3e96b4911aef3f63f739a2a6a6a39d6b011f6aada6b
+    digest: dfb49953fec551ae1dd631cfb96e1ce11329e416c90eaf70e78b2c27b2c6d4ab
     keywords:
     - ravaga-helm-chart-generator
     - aeriOS
@@ -34,7 +34,7 @@ entries:
   mintaka:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-24T13:19:15.8542958+01:00"
+    created: "2025-11-24T15:27:41.7092775+01:00"
     description: A Helm chart for FIWARE Mintaka
     digest: 2da3d2679e8b5957182b495b3bb66b672d14d2ffa63545171c02916a1d1e92a5
     keywords:
@@ -54,7 +54,7 @@ entries:
   orion-ld:
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-11-24T13:19:15.8553957+01:00"
+    created: "2025-11-24T15:27:41.7092775+01:00"
     description: A Helm chart for FIWARE Orion-LD context broker. The default values
       have been adapted to the needs of the aeriOS project.
     digest: 0da9cd1ef3647b40d246759ef29662ccdc44f3ecccfd8a3aeda3738b908051e8
@@ -73,4 +73,4 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/orion-ld-1.0.0.tgz
     version: 1.0.0
-generated: "2025-11-24T13:19:15.8526466+01:00"
+generated: "2025-11-24T15:27:41.7072785+01:00"
