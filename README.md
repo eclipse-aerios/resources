@@ -38,7 +38,7 @@ https://docs.aerios-project.eu/ -->
 [https://eclipse-aerios.github.io/resources/charts](https://eclipse-aerios.github.io/resources/charts)
 
 ☸️ Artifact Hub repository:  
-[https://artifacthub.io/packages/search?user=eclipse-aerios-bot](https://artifacthub.io/packages/search?user=eclipse-aerios-bot)
+[https://artifacthub.io/packages/search?org=eclipse-aerios](https://artifacthub.io/packages/search?org=eclipse-aerios)
 
 
 ## 📂 Repository Structure
