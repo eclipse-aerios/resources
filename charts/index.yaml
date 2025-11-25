@@ -3,7 +3,7 @@ entries:
   aerios-k8s-shim:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-24T15:27:41.7072785+01:00"
+    created: "2025-11-25T17:53:15.089493607+01:00"
     description: A Helm chart for deploying an intermediate among aerios and K8s cluster
     digest: be15dde9ddd150e559fd1f48b61e060e1643178c4185e1fff7e748ed5f0ebeb7
     name: aerios-k8s-shim
@@ -14,7 +14,7 @@ entries:
   federator:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-11-24T15:27:41.7082774+01:00"
+    created: "2025-11-25T17:53:15.089899834+01:00"
     description: aeriOS Federator
     digest: dfb49953fec551ae1dd631cfb96e1ce11329e416c90eaf70e78b2c27b2c6d4ab
     keywords:
@@ -34,7 +34,7 @@ entries:
   mintaka:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-24T15:27:41.7092775+01:00"
+    created: "2025-11-25T17:53:15.090421023+01:00"
     description: A Helm chart for FIWARE Mintaka
     digest: 2da3d2679e8b5957182b495b3bb66b672d14d2ffa63545171c02916a1d1e92a5
     keywords:
@@ -54,7 +54,7 @@ entries:
   orion-ld:
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-11-24T15:27:41.7092775+01:00"
+    created: "2025-11-25T17:53:15.091086367+01:00"
     description: A Helm chart for FIWARE Orion-LD context broker. The default values
       have been adapted to the needs of the aeriOS project.
     digest: 0da9cd1ef3647b40d246759ef29662ccdc44f3ecccfd8a3aeda3738b908051e8
@@ -73,4 +73,35 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/orion-ld-1.0.0.tgz
     version: 1.0.0
-generated: "2025-11-24T15:27:41.7072785+01:00"
+  self-awareness:
+  - apiVersion: v2
+    appVersion: 1.4.4
+    created: "2025-11-25T17:53:15.091540693+01:00"
+    description: Self-awareness module of the aeriOS Self-* components
+    digest: 4b032480903a3417c2d7c049ee9c3b649a02061c0e5e9332d858ac64220249ca
+    keywords:
+    - ravaga-helm-chart-generator
+    - aeriOS
+    - self-*
+    - metrics
+    name: self-awareness
+    type: application
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/self-awareness-1.4.4.tgz
+    version: 1.4.4
+  self-orchestrator:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-11-25T17:53:15.091816678+01:00"
+    description: Self-orchestrator module of the Self-* modules of aeriOS
+    digest: b311e848f89df9a007c5116ca6392716478e2ec66fbb420aad39dc4a80d856ef
+    keywords:
+    - ravaga-helm-chart-generator
+    - aeriOS
+    - self-*
+    name: self-orchestrator
+    type: application
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/self-orchestrator-1.2.0.tgz
+    version: 1.2.0
+generated: "2025-11-25T17:53:15.089087017+01:00"
