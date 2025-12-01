@@ -3,7 +3,7 @@ entries:
   aerios-k8s-shim:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-25T17:53:15.089493607+01:00"
+    created: "2025-12-01T17:38:55.6472228+01:00"
     description: A Helm chart for deploying an intermediate among aerios and K8s cluster
     digest: be15dde9ddd150e559fd1f48b61e060e1643178c4185e1fff7e748ed5f0ebeb7
     name: aerios-k8s-shim
@@ -14,7 +14,7 @@ entries:
   federator:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-11-25T17:53:15.089899834+01:00"
+    created: "2025-12-01T17:38:55.6477363+01:00"
     description: aeriOS Federator
     digest: dfb49953fec551ae1dd631cfb96e1ce11329e416c90eaf70e78b2c27b2c6d4ab
     keywords:
@@ -31,10 +31,48 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/federator-1.1.0.tgz
     version: 1.1.0
+  llo-api:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-12-01T17:38:55.6482513+01:00"
+    description: A Helm chart for the aeriOS LLO API
+    digest: 37dfac34b45f312bfd7d67daff5f50ae706e25a63f6073bac8e4ce917325dd7c
+    keywords:
+    - ravaga-helm-chart-generator
+    - aeriOS
+    - LLO
+    - API
+    - orchestration
+    name: llo-api
+    type: application
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/llo-api-1.0.0.tgz
+    version: 1.0.0
+  llo-nats:
+  - apiVersion: v2
+    appVersion: 2.11.4
+    created: "2025-12-01T17:38:55.6493283+01:00"
+    description: A Helm chart for the NATS broker used by the aeriOS LLOs
+    digest: dcdf02ac65a0925aae44c2289e7739134d2ccc2ca57007548cacc1868e85e39c
+    keywords:
+    - ravaga-helm-chart-generator
+    - aeriOS
+    - LLO
+    - no-k8s
+    - operator
+    - nats
+    - broker
+    - asynchronous
+    - CNCF
+    name: llo-nats
+    type: application
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/llo-nats-1.0.0.tgz
+    version: 1.0.0
   mintaka:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-25T17:53:15.090421023+01:00"
+    created: "2025-12-01T17:38:55.6503655+01:00"
     description: A Helm chart for FIWARE Mintaka
     digest: 2da3d2679e8b5957182b495b3bb66b672d14d2ffa63545171c02916a1d1e92a5
     keywords:
@@ -54,7 +92,7 @@ entries:
   orion-ld:
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-11-25T17:53:15.091086367+01:00"
+    created: "2025-12-01T17:38:55.6513999+01:00"
     description: A Helm chart for FIWARE Orion-LD context broker. The default values
       have been adapted to the needs of the aeriOS project.
     digest: 0da9cd1ef3647b40d246759ef29662ccdc44f3ecccfd8a3aeda3738b908051e8
@@ -73,10 +111,53 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/orion-ld-1.0.0.tgz
     version: 1.0.0
+  redpanda:
+  - annotations:
+      artifacthub.io/images: |
+        - name: redpanda
+          image: docker.redpanda.com/redpandadata/redpanda:v23.3.1
+        - name: busybox
+          image: busybox:latest
+        - name: mintel/docker-alpine-bash-curl-jq
+          image: mintel/docker-alpine-bash-curl-jq:latest
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://docs.redpanda.com
+        - name: "Helm (>= 3.8.0)"
+          url: https://helm.sh/docs/intro/install/
+    apiVersion: v2
+    appVersion: v23.3.1
+    created: "2025-12-01T17:38:55.6592282+01:00"
+    dependencies:
+    - condition: console.enabled
+      name: console
+      repository: https://charts.redpanda.com
+      version: '>=0.5 <1.0'
+    - condition: connectors.enabled
+      name: connectors
+      repository: https://charts.redpanda.com
+      version: '>=0.1.2 <1.0'
+    description: Redpanda is the real-time engine for modern apps.
+    digest: 50b40f4204ec612e8de2cd1f8cf59f4224a3512ddd9cbe31b1ebd291e18da72d
+    icon: https://images.ctfassets.net/paqvtpyf8rwu/3cYHw5UzhXCbKuR24GDFGO/73fb682e6157d11c10d5b2b5da1d5af0/skate-stand-panda.svg
+    kubeVersion: ^1.21.0-0
+    maintainers:
+    - name: redpanda-data
+      url: https://github.com/orgs/redpanda-data/people
+    - name: aerios-team
+      url: https://github.com/orgs/eclipse-aerios/people
+    name: redpanda
+    sources:
+    - https://github.com/redpanda-data/helm-charts
+    type: application
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/redpanda-5.7.8.tgz
+    version: 5.7.8
   self-awareness:
   - apiVersion: v2
     appVersion: 1.4.4
-    created: "2025-11-25T17:53:15.091540693+01:00"
+    created: "2025-12-01T17:38:55.6597471+01:00"
     description: Self-awareness module of the aeriOS Self-* components
     digest: 4b032480903a3417c2d7c049ee9c3b649a02061c0e5e9332d858ac64220249ca
     keywords:
@@ -92,7 +173,7 @@ entries:
   self-orchestrator:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-11-25T17:53:15.091816678+01:00"
+    created: "2025-12-01T17:38:55.6602678+01:00"
     description: Self-orchestrator module of the Self-* modules of aeriOS
     digest: b311e848f89df9a007c5116ca6392716478e2ec66fbb420aad39dc4a80d856ef
     keywords:
@@ -104,4 +185,4 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/self-orchestrator-1.2.0.tgz
     version: 1.2.0
-generated: "2025-11-25T17:53:15.089087017+01:00"
+generated: "2025-12-01T17:38:55.6439418+01:00"
