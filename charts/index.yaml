@@ -3,7 +3,7 @@ entries:
   aerios-k8s-shim:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-12-01T17:38:55.6472228+01:00"
+    created: "2025-12-04T10:47:50.4502791+01:00"
     description: A Helm chart for deploying an intermediate among aerios and K8s cluster
     digest: be15dde9ddd150e559fd1f48b61e060e1643178c4185e1fff7e748ed5f0ebeb7
     name: aerios-k8s-shim
@@ -14,7 +14,7 @@ entries:
   federator:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-12-01T17:38:55.6477363+01:00"
+    created: "2025-12-04T10:47:50.4559383+01:00"
     description: aeriOS Federator
     digest: dfb49953fec551ae1dd631cfb96e1ce11329e416c90eaf70e78b2c27b2c6d4ab
     keywords:
@@ -31,10 +31,23 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/federator-1.1.0.tgz
     version: 1.1.0
+  iota:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2025-12-04T10:47:50.4569654+01:00"
+    description: iota helm chart
+    digest: 43e71aa7ce0fc546b455897f937ecad557e8b1ae7016817db49e850eebffb522
+    keywords:
+    - ravaga-helm-chart-generator
+    name: iota
+    type: application
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/iota-1.0.2.tgz
+    version: 1.0.2
   llo-api:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-12-01T17:38:55.6482513+01:00"
+    created: "2025-12-04T10:47:50.4610771+01:00"
     description: A Helm chart for the aeriOS LLO API
     digest: 37dfac34b45f312bfd7d67daff5f50ae706e25a63f6073bac8e4ce917325dd7c
     keywords:
@@ -51,7 +64,7 @@ entries:
   llo-nats:
   - apiVersion: v2
     appVersion: 2.11.4
-    created: "2025-12-01T17:38:55.6493283+01:00"
+    created: "2025-12-04T10:47:50.4652331+01:00"
     description: A Helm chart for the NATS broker used by the aeriOS LLOs
     digest: dcdf02ac65a0925aae44c2289e7739134d2ccc2ca57007548cacc1868e85e39c
     keywords:
@@ -72,7 +85,7 @@ entries:
   mintaka:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-01T17:38:55.6503655+01:00"
+    created: "2025-12-04T10:47:50.4692818+01:00"
     description: A Helm chart for FIWARE Mintaka
     digest: 2da3d2679e8b5957182b495b3bb66b672d14d2ffa63545171c02916a1d1e92a5
     keywords:
@@ -92,7 +105,7 @@ entries:
   orion-ld:
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-12-01T17:38:55.6513999+01:00"
+    created: "2025-12-04T10:47:50.4738805+01:00"
     description: A Helm chart for FIWARE Orion-LD context broker. The default values
       have been adapted to the needs of the aeriOS project.
     digest: 0da9cd1ef3647b40d246759ef29662ccdc44f3ecccfd8a3aeda3738b908051e8
@@ -128,7 +141,7 @@ entries:
           url: https://helm.sh/docs/intro/install/
     apiVersion: v2
     appVersion: v23.3.1
-    created: "2025-12-01T17:38:55.6592282+01:00"
+    created: "2025-12-04T10:47:50.4820807+01:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -157,7 +170,7 @@ entries:
   self-awareness:
   - apiVersion: v2
     appVersion: 1.4.4
-    created: "2025-12-01T17:38:55.6597471+01:00"
+    created: "2025-12-04T10:47:50.4867004+01:00"
     description: Self-awareness module of the aeriOS Self-* components
     digest: 4b032480903a3417c2d7c049ee9c3b649a02061c0e5e9332d858ac64220249ca
     keywords:
@@ -173,7 +186,7 @@ entries:
   self-orchestrator:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-12-01T17:38:55.6602678+01:00"
+    created: "2025-12-04T10:47:50.4902708+01:00"
     description: Self-orchestrator module of the Self-* modules of aeriOS
     digest: b311e848f89df9a007c5116ca6392716478e2ec66fbb420aad39dc4a80d856ef
     keywords:
@@ -185,4 +198,4 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/self-orchestrator-1.2.0.tgz
     version: 1.2.0
-generated: "2025-12-01T17:38:55.6439418+01:00"
+generated: "2025-12-04T10:47:50.439988+01:00"
