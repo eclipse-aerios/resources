@@ -3,7 +3,7 @@ entries:
   aerios-k8s-shim:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-12-04T10:47:50.4502791+01:00"
+    created: "2025-12-04T11:31:59.4158413+01:00"
     description: A Helm chart for deploying an intermediate among aerios and K8s cluster
     digest: be15dde9ddd150e559fd1f48b61e060e1643178c4185e1fff7e748ed5f0ebeb7
     name: aerios-k8s-shim
@@ -14,7 +14,7 @@ entries:
   federator:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-12-04T10:47:50.4559383+01:00"
+    created: "2025-12-04T11:31:59.4168827+01:00"
     description: aeriOS Federator
     digest: dfb49953fec551ae1dd631cfb96e1ce11329e416c90eaf70e78b2c27b2c6d4ab
     keywords:
@@ -31,10 +31,28 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/federator-1.1.0.tgz
     version: 1.1.0
+  idm:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-12-04T11:31:59.4174014+01:00"
+    description: Helm chart for the aerios Identity Manager based on Keycloak
+    digest: 6c121388269119028260b298f856578115c5cd2a759a02998f960d246801c4d3
+    keywords:
+    - ravaga-helm-chart-generator
+    - aerios
+    - keycloak
+    - oauth2.0
+    - cybersecurity
+    - idm
+    name: idm
+    type: application
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/idm-1.1.0.tgz
+    version: 1.1.0
   iota:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-12-04T10:47:50.4569654+01:00"
+    created: "2025-12-04T11:31:59.4226007+01:00"
     description: iota helm chart
     digest: 43e71aa7ce0fc546b455897f937ecad557e8b1ae7016817db49e850eebffb522
     keywords:
@@ -47,7 +65,7 @@ entries:
   llo-api:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-12-04T10:47:50.4610771+01:00"
+    created: "2025-12-04T11:31:59.4236723+01:00"
     description: A Helm chart for the aeriOS LLO API
     digest: 37dfac34b45f312bfd7d67daff5f50ae706e25a63f6073bac8e4ce917325dd7c
     keywords:
@@ -64,7 +82,7 @@ entries:
   llo-nats:
   - apiVersion: v2
     appVersion: 2.11.4
-    created: "2025-12-04T10:47:50.4652331+01:00"
+    created: "2025-12-04T11:31:59.4241801+01:00"
     description: A Helm chart for the NATS broker used by the aeriOS LLOs
     digest: dcdf02ac65a0925aae44c2289e7739134d2ccc2ca57007548cacc1868e85e39c
     keywords:
@@ -85,7 +103,7 @@ entries:
   mintaka:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-04T10:47:50.4692818+01:00"
+    created: "2025-12-04T11:31:59.4293421+01:00"
     description: A Helm chart for FIWARE Mintaka
     digest: 2da3d2679e8b5957182b495b3bb66b672d14d2ffa63545171c02916a1d1e92a5
     keywords:
@@ -102,10 +120,46 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/mintaka-1.0.0.tgz
     version: 1.0.0
+  openldap-stack-ha:
+  - apiVersion: v2
+    appVersion: 2.6.4
+    created: "2025-12-04T11:31:59.4308784+01:00"
+    dependencies:
+    - condition: ltb-passwd.enabled
+      name: ltb-passwd
+      repository: ""
+      version: 0.1.x
+    - condition: phpldapadmin.enabled
+      name: phpldapadmin
+      repository: ""
+      version: 0.1.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Community developed LDAP software
+    digest: d85111efbc382fe3e1440ef4a5b9da165f5178696657cc899ba4dc16e7b16054
+    home: https://www.openldap.org
+    icon: https://raw.githubusercontent.com/jp-gouin/helm-openldap/master/logo.png
+    keywords:
+    - ldap
+    - openldap
+    - iam-stack
+    - high availability
+    maintainers:
+    - email: jp-gouin@hotmail.fr
+      name: Jean-Philippe Gouin
+    name: openldap-stack-ha
+    sources:
+    - https://github.com/jp-gouin/helm-openldap
+    urls:
+    - https://eclipse-aerios.github.io/resources/charts/openldap-stack-ha-4.1.2.tgz
+    version: 4.1.2
   orion-ld:
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-12-04T10:47:50.4738805+01:00"
+    created: "2025-12-04T11:31:59.4355234+01:00"
     description: A Helm chart for FIWARE Orion-LD context broker. The default values
       have been adapted to the needs of the aeriOS project.
     digest: 0da9cd1ef3647b40d246759ef29662ccdc44f3ecccfd8a3aeda3738b908051e8
@@ -141,7 +195,7 @@ entries:
           url: https://helm.sh/docs/intro/install/
     apiVersion: v2
     appVersion: v23.3.1
-    created: "2025-12-04T10:47:50.4820807+01:00"
+    created: "2025-12-04T11:31:59.4430738+01:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -170,7 +224,7 @@ entries:
   self-awareness:
   - apiVersion: v2
     appVersion: 1.4.4
-    created: "2025-12-04T10:47:50.4867004+01:00"
+    created: "2025-12-04T11:31:59.4440751+01:00"
     description: Self-awareness module of the aeriOS Self-* components
     digest: 4b032480903a3417c2d7c049ee9c3b649a02061c0e5e9332d858ac64220249ca
     keywords:
@@ -186,7 +240,7 @@ entries:
   self-orchestrator:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-12-04T10:47:50.4902708+01:00"
+    created: "2025-12-04T11:31:59.4475824+01:00"
     description: Self-orchestrator module of the Self-* modules of aeriOS
     digest: b311e848f89df9a007c5116ca6392716478e2ec66fbb420aad39dc4a80d856ef
     keywords:
@@ -198,4 +252,4 @@ entries:
     urls:
     - https://eclipse-aerios.github.io/resources/charts/self-orchestrator-1.2.0.tgz
     version: 1.2.0
-generated: "2025-12-04T10:47:50.439988+01:00"
+generated: "2025-12-04T11:31:59.4085749+01:00"
