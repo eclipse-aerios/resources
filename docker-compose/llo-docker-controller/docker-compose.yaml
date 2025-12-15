@@ -1,0 +1,21 @@
+services:
+  controller:
+    container_name: llo-docker-controller
+    image: eclipseaerios/llo-docker-controller:1.1.0
+    restart: always
+    labels:
+      - "app.docker.io.name=llo-docker-controller"
+      - "app.docker.io.instance=44095d5b-99b6-44b2-a7cb-ca2327f670eb"
+      - "app.docker.io.version=1.0.0"
+      - "app.docker.io.component=controller"
+      - "app.docker.io.managed-by=Docker-compose"
+      - "app.docker.io.isMainInterface=true"
+    environment:
+      - APP_ENV=production
+      - NATS_URL=nats://{{NATS_HOST}}:{{NATS_PORT}}
+      - LLO_ID={{LLO_ID}}
+      - IE_ID={{IE_ID}}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    group_add:
+      - "${DOCKER_GID}"

@@ -58,6 +58,18 @@ resources/
 
 ## ☸️ Helm chart repository
 
+### How to add or update Helm charts
+
+After adding the already packaged Helm charts inside the [charts](./charts/) folder, run the following command to update the context of the [index.yaml](./charts/index.yaml) file:
+
+```bash
+helm repo index charts --url https://eclipse-aerios.github.io/resources/charts --merge .\charts\index.yaml --debug
+```
+
+Then, commit and push the changes.
+
+### How to use
+
 First, add the aeriOS Helm chart repository
 
 ```bash
