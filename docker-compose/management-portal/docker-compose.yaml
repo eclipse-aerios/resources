@@ -1,0 +1,34 @@
+services:
+  frontend:
+    container_name: management-portal-frontend
+    image: registry.gitlab.aeros-project.eu/aeros-public/common-deployments/management-portal/frontend:1.1.0-alpha
+    ports:
+      - 80:80
+      # enable TLS
+      # - 443:443
+    volumes:
+      - ${PWD}/config/keycloak.json:/usr/share/nginx/html/keycloak.json
+      - ${PWD}/config/managementportal.conf:/etc/nginx/conf.d/managementportal.conf
+      # enable TLS
+      # - ${PWD}/config/managementportal-tls.conf:/etc/nginx/conf.d/managementportal-tls.conf
+      # - ${PWD}/certs:/etc/nginx/certs
+
+  backend:
+    container_name: management-portal-backend
+    depends_on:
+      - frontend
+    image: registry.gitlab.aeros-project.eu/aeros-public/common-deployments/management-portal/backend:1.1.0-alpha
+    ports:
+      - 8080:8080
+      - 8080:8082
+    environment:
+      - LOG_LEVEL=DEBUG
+      - SECURITY_LOG_LEVEL=DEBUG
+      - LDAP_LOG_LEVEL=DEBUG
+      - ORION_URL=http://127.0.0.1:1026/ngsi-ld/v1/entities
+      - KEYCLOAK_URL=https://keycloak.cf-mvp-domain.aeros-project.eu
+      - KEYCLOAK_REALM=keycloack-openldap
+      - HLO_FE_URL=http://127.0.0.1:8081
+      - LDAP_URL=http://127.0.0.1:389
+      - LDAP_USERNAME=cn=admin,dc=example,dc=org
+      - LDAP_PASSWORD=Not@SecurePassw0rd
