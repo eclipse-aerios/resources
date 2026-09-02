@@ -1,0 +1,38 @@
+version: "3"
+
+volumes:
+  postgres_data:
+    driver: local
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.6.3
+    environment:
+      KC_PROXY_PROTOCOL_ENABLED: "false"
+      KC_PROXY_HEADERS: xforwarded
+      KC_DB: postgres
+      KC_DB_SCHEMA: public
+      KC_DB_URL_HOST: external-postgres
+      KC_DB_URL_PORT: 5432
+      KC_DB_URL_DATABASE: keycloak
+      KC_DB_USERNAME: <db-username>
+      KC_DB_PASSWORD: <db-password>
+      KC_BOOTSTRAP_ADMIN_USERNAME: <admin-username>
+      KC_BOOTSTRAP_ADMIN_PASSWORD: <admin-password>
+      KC_HOSTNAME: "keycloak.eclipse-aerios.eu"
+      KC_HOSTNAME_STRICT: "false"
+      KC_HTTP_ENABLED: "true"
+      KC_HEALTH_ENABLED: "true"
+      KC_METRICS_ENABLED: "false"
+      KC_HTTP_RELATIVE_PATH: ""
+      # Enable TLS
+      # KC_HTTPS_CERTIFICATE_FILE: /etc/certs/cert.pem
+      # KC_HTTPS_CERTIFICATE_KEY_FILE: /etc/certs/key.pem
+    ports:
+      - 8080:8080
+      # Optional to expose the management port (only if health or metrics are enabled)
+      # - 9000:9000
+      # Enable TLS
+      # - 8443:8443
+    # Enable TLS
+    # volumes:
+    #   - ./certs:/etc/keycloak/certs
