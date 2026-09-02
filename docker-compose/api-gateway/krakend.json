@@ -58,8 +58,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -122,8 +122,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -186,8 +186,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -233,8 +233,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -280,8 +280,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -326,8 +326,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -392,8 +392,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -443,8 +443,8 @@
 						"Domain administrator",
 						"Continuum administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -480,8 +480,8 @@
 						"Domain administrator",
 						"Continuum administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -515,8 +515,8 @@
 					"roles": [
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -554,8 +554,8 @@
 						"Domain administrator",
 						"Continuum administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -591,8 +591,8 @@
 						"Domain administrator",
 						"Continuum administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -626,8 +626,8 @@
 					"roles": [
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -655,29 +655,29 @@
 			"output_encoding": "no-op",
 			"extra_config": {
 				"auth/validator": {
-				"alg": "RS256",
-				"roles_key": "realm_access.roles",
-				"roles_key_is_nested": true,
-				"roles": [
-					"Continuum administrator",
-					"IoT service deployer",
-					"HLO"
-				],
-				"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-				"disable_jwk_security": true
+					"alg": "RS256",
+					"roles_key": "realm_access.roles",
+					"roles_key_is_nested": true,
+					"roles": [
+						"Continuum administrator",
+						"IoT service deployer",
+						"HLO"
+					],
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
 			"backend": [
 				{
-				"url_pattern": "/hlo_fe/services/{service_id}",
-				"encoding": "no-op",
-				"method": "GET",
-				"host": [
-					"http://hlo-fe-service:8081"
-				],
-				"is_collection": true,
-				"disable_host_sanitize": false
+					"url_pattern": "/hlo_fe/services/{service_id}",
+					"encoding": "no-op",
+					"method": "GET",
+					"host": [
+						"http://hlo-fe-service:8081"
+					],
+					"is_collection": true,
+					"disable_host_sanitize": false
 				}
 			],
 			"input_headers": [
@@ -701,8 +701,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -739,8 +739,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -777,8 +777,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -815,8 +815,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -853,8 +853,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -889,8 +889,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -924,8 +924,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -960,8 +960,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -995,8 +995,8 @@
 						"IoT service deployer",
 						"HLO"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -1031,8 +1031,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1093,8 +1093,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1131,8 +1131,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1169,8 +1169,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1210,8 +1210,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -1247,8 +1247,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1292,8 +1292,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1335,8 +1335,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1376,8 +1376,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1420,8 +1420,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1460,8 +1460,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1501,8 +1501,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1541,8 +1541,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1581,8 +1581,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1621,8 +1621,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1661,8 +1661,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1701,8 +1701,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1741,8 +1741,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1782,8 +1782,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1823,8 +1823,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1864,8 +1864,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -1904,8 +1904,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"backend": [
@@ -1947,8 +1947,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2008,8 +2008,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2048,8 +2048,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2088,8 +2088,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2128,8 +2128,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2168,8 +2168,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2208,8 +2208,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2248,8 +2248,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2292,8 +2292,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2333,8 +2333,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2374,8 +2374,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2416,8 +2416,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2457,8 +2457,8 @@
 						"Domain administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2502,8 +2502,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2542,8 +2542,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2582,8 +2582,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2621,8 +2621,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2660,8 +2660,8 @@
 					"roles": [
 						"Domain administrator"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [
@@ -2701,8 +2701,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -2740,8 +2740,8 @@
 						"Continuum administrator",
 						"ContextBroker"
 					],
-					"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-					"disable_jwk_security": true
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
 				}
 			},
 			"input_query_strings": [],
@@ -2771,41 +2771,41 @@
 			"method": "POST",
 			"output_encoding": "no-op",
 			"extra_config": {
-			  "auth/validator": {
-				"alg": "RS256",
-				"roles_key": "realm_access.roles",
-				"roles_key_is_nested": true,
-				"roles": [
-				  "Domain administrator",
-				  "Continuum administrator",
-				  "ContextBroker"
-				],
-				"jwk_url": "http://idm-keycloak:8080/auth/realms/keycloak-realm/protocol/openid-connect/certs",
-				"disable_jwk_security": true
-			  }
+				"auth/validator": {
+					"alg": "RS256",
+					"roles_key": "realm_access.roles",
+					"roles_key_is_nested": true,
+					"roles": [
+						"Domain administrator",
+						"Continuum administrator",
+						"ContextBroker"
+					],
+					"jwk_url": "https://keycloak.aerios-project.eu/realms/keycloak-realm/protocol/openid-connect/certs",
+					"disable_jwk_security": false
+				}
 			},
 			"input_query_strings": [
-			  "node"
+				"node"
 			],
 			"backend": [
-			  {
-				"url_pattern": "/upload",
-				"encoding": "no-op",
-				"method": "POST",
-				"host": [
-				  "http://iota-api:6000"
-				],
-				"is_collection": true,
-				"disable_host_sanitize": false
-			  }
+				{
+					"url_pattern": "/upload",
+					"encoding": "no-op",
+					"method": "POST",
+					"host": [
+						"http://iota-api:6000"
+					],
+					"is_collection": true,
+					"disable_host_sanitize": false
+				}
 			],
 			"input_headers": [
-			  "aerOS",
-			  "Authorization",
-			  "Content-Type",
-			  "Link",
-			  "NGSILD-Tenant"
+				"aerOS",
+				"Authorization",
+				"Content-Type",
+				"Link",
+				"NGSILD-Tenant"
 			]
-		  }
+		}
 	]
 }
